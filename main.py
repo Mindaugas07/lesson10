@@ -11,7 +11,7 @@
 #     if user_input == username + " " + password:
 #         break
 
-# print(f"You entered correct username and password")
+# print("You entered correct username and password")
 
 
 # new_list = []
@@ -30,10 +30,14 @@
 
 # print(new_dict)
 
-# pin_code = 2145
+# import time
+# pin_code = 9999
 
+# start = time.time()
 # for pin in range(1, 10000):
 #     if pin == pin_code:
+#         end = time.time()
+#         print((end-start))
 #         break
     
 # print(f"The pin code is: {pin}")
